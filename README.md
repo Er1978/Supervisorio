@@ -9,7 +9,7 @@ O projeto consiste em um sistema de controle em malha fechada projetado para man
 ## 🗂️ Estrutura do Repositório
 
 * **/**: Contém a solução completa da interface gráfica desenvolvida em C#. É responsável pela comunicação serial com a planta, definição de *setpoints*, controle manual/automático, exibição gráfica dinâmica e exportação de relatórios (datalogger) em `.csv`.
-* **`controllino.ino`**: Firmware principal desenvolvido para o **Controllino Maxi Automation Pure**. Contém a lógica de busca do *setpoint*, cálculo de margens e zonas mortas (histerese), modulação PWM das bombas de engrenagem e rotinas de intertravamento de segurança contra transbordamento.
+* **`/controllino`**: Firmware principal desenvolvido para o **Controllino Maxi Automation Pure**. Contém a lógica de busca do *setpoint*, cálculo de margens e zonas mortas (histerese), modulação PWM das bombas de engrenagem e rotinas de intertravamento de segurança contra transbordamento.
 * **/fotos/**: Registro fotográfico detalhando a montagem da estrutura física em MDF, o arranjo do sistema hidráulico, os componentes eletrônicos e a fixação da placa de interface (*level shifter*).
 
 ## ⚙️ Hardware Utilizado
